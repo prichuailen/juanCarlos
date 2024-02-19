@@ -1,0 +1,175 @@
+
+
+body{
+    background-image: url(GHfondo.jpeg) ;
+    background-repeat: no-repeat;
+    background-position: top;
+    margin-top: 0%;
+    background-size: cover;
+    background-attachment: fixed;
+    display: flex;
+    flex-direction: column;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+
+
+/*Nav bar*/
+
+header{
+    position: absolute;
+    width: 100%;
+    top: 0;
+    left: 0;
+    margin-top: 0%;
+    display: flex;
+    margin: 0;
+    padding: 0;
+    background-color: black;
+    color: white;
+}
+
+.logo{
+    margin-right: 4px;
+    display: flex;
+    margin-top: 1%;
+    text-decoration: none;
+    color: white;
+    margin-left: 3%;
+    margin-bottom: 2%;
+}
+
+img{
+    border-radius: 50%;
+    border: solid black 4px;
+   
+}
+
+.nav-bar{
+    list-style: none;
+    display: flex;
+    justify-content: right;
+    align-items: center;
+    margin-top: 8px;
+    margin-bottom: 4px;
+    
+}
+
+a{
+    text-decoration: none; 
+}
+
+.textopcpal{
+    margin-left: 10px;
+   font-size: 20px;
+   margin-top: 2px;
+   margin-bottom: 0%;
+   display: flex;
+   align-items: center;
+}
+
+.nb{
+margin-left: 1cm;
+margin-right: 8px;
+display: flex;
+justify-content: right;
+margin-top: 0%;
+margin-bottom: 0%;
+
+}
+
+.nav-link{
+    font-size: 16px;
+    color: white; 
+    margin-left: 1cm;
+    margin-right: 0cm;
+}
+
+.nav-link:hover{
+    color: darkblue ;
+    transition: 0.4s;
+    font-size: 18px;
+    margin-left: 1cm;
+    margin-right: 0cm;
+}
+
+/*main*/
+
+h1{
+    font-size: 1cm;
+    color: white;
+    text-decoration: underline;
+    text-align: center;
+    text-shadow: 2cm;
+    border-radius: 15px;
+}
+
+main{
+    display: flex;
+    flex-direction: column;
+    border: solid black 2px;
+    margin-top: 5cm;
+    justify-content: left;
+    backdrop-filter: blur(6px);
+    border-radius: 5%;
+    color: black;
+    height: 34cm;
+}
+
+ul{
+    list-style: none;
+    
+}
+
+.lista{
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    margin-bottom: 1cm;
+    font-size: 25px;
+}
+
+.foto{
+    margin-right: 1cm;
+}
+
+.ganador{
+    display: flex;
+    justify-content: center;
+    text-decoration: none;
+    color: black;
+}
+
+h2{
+    font-size: 30px;
+}
+
+.noticia{
+    display: flex;
+    justify-content: center;
+    color: lightblue;
+    font-size: 30px;
+}
+
+/*footer*/
+.pie{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    border: solid black 2px;
+    backdrop-filter: blur(6px);
+    text-align: center;
+    margin-top: 1cm;
+    position: relative;
+    margin: 0%;
+    
+}
+
+h4{
+    margin-left: 1cm;
+}
+
+i{
+    color: white;
+    font-size: 0.5cm;
+}
